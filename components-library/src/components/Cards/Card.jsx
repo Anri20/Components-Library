@@ -12,7 +12,7 @@ export default function Card({ children, hover }) {
 
     return (
         <div className={classes}>
-            <i class="fa-solid fa-cloud-arrow-up"></i>
+            <i className="fa-solid fa-cloud-arrow-up"></i>
             {children}
         </div>
     )

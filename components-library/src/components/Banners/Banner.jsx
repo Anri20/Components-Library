@@ -16,22 +16,22 @@ export default function Banner({ children, type, mode }) {
     let title
     switch (bannerType) {
         case "success":
-            icon = <i class="fa-solid fa-circle-check" style={{color: "#34D399"}}></i>
+            icon = <i className="fa-solid fa-circle-check" style={{ color: "#34D399" }}></i>
             title = "Congratulations!"
             break;
 
         case "warning":
-            icon = <i class="fa-solid fa-triangle-exclamation" style={{color: "#FBBF24"}}></i>
+            icon = <i className="fa-solid fa-triangle-exclamation" style={{ color: "#FBBF24" }}></i>
             title = "Attention"
             break;
 
         case "danger":
-            icon = <i class="fa-solid fa-circle-xmark" style={{color: "#F87171"}}></i>
+            icon = <i className="fa-solid fa-circle-xmark" style={{ color: "#F87171" }}></i>
             title = "There is a problem with your application"
             break;
 
         case "neutral":
-            icon = <i class="fa-solid fa-circle-info" style={{color: "#60A5FA"}}></i>
+            icon = <i className="fa-solid fa-circle-info" style={{ color: "#60A5FA" }}></i>
             title = "Update available"
             break;
     }
