@@ -1,0 +1,55 @@
+div.banner {
+    width: 100%;
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    grid-template-areas:
+        " ... title "
+    ;
+    gap: .5em .75em;
+    border-radius: 6px;
+    padding: 1em;
+}
+
+.banner.multi {
+    grid-template-areas:
+        " ... title "
+        " ... desc "
+    ;
+}
+
+h1,
+p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+h1 {
+    grid-area: title;
+    font-weight: 500;
+}
+
+p {
+    grid-area: desc;
+    font-weight: 400;
+}
+
+.banner.success {
+    color: #047857;
+    background-color: #ECFDF5;
+}
+
+.banner.warning {
+    color: #B45309;
+    background-color: #FFFBEB;
+}
+
+.banner.danger {
+    color: #B45309;
+    background-color: #FEF2F2;
+}
+
+.banner.neutral {
+    color: #1E40AF;
+    background-color: #EFF6FF;
+}
