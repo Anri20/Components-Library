@@ -18,18 +18,18 @@ div.banner {
     ;
 }
 
-h1,
-p {
+.banner h1,
+.banner p {
     font-size: 1rem;
     margin: 0;
 }
 
-h1 {
+.banner h1 {
     grid-area: title;
     font-weight: 500;
 }
 
-p {
+.banner p {
     grid-area: desc;
     font-weight: 400;
 }
